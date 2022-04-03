@@ -1,0 +1,25 @@
+h3 {
+  margin: 1rem 1rem 0.6rem 1rem;
+}
+
+p {
+  margin: 0 1rem;
+  color: var(--grayish-blue);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: min(23em, 85%);
+  height: 15em;
+  border-radius: 5px;
+  padding: 0.8em;
+  text-align: left;
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+}
